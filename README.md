@@ -12,6 +12,7 @@ Program will receive parameters as appointed sequence, e.g.<br/>   a.out 127.0.0
 a.out: the executable program<br/>
 127.0.0.1: target host<br/>
 8888: target port number<br/> 
+2: threads number that you want 
 hello world: message you want to send to host. Use ' if you want to send Ctrl letters such as <b>'$hello world;ok!'</b><br/> 
 
 Work around
