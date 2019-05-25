@@ -8,12 +8,13 @@ How to use
 ### 1. Build
 Execute script build.sh from project. It will create a.out by default.
 ### 2. Execution
-Program will receive parameters as appointed sequence, e.g.<br/>   a.out 127.0.0.1 8888 2 'hello world'</b><br/>
-a.out: the executable program<br/>
-127.0.0.1: target host<br/>
-8888: target port number<br/> 
-2: threads number that you want 
-hello world: message you want to send to host. Use ' if you want to send Ctrl letters such as <b>'$hello world;ok!'</b><br/> 
+Program will receive parameters as appointed sequence, e.g.<br/>
+<b>a.out 127.0.0.1 8888 2 'hello world'</b><br/>
+<b>a.out</b>: the executable program<br/>
+<b>127.0.0.1</b>: target host<br/>
+<b>8888</b>: target port number<br/> 
+<b>2</b>: threads number that you want to create<br/>
+<b>hello world</b>: message you want to send to host. Use ' if you want to send Ctrl letters such as <b>'$hello world;ok!'</b><br/> 
 
 Work around
 ------
